@@ -1,0 +1,1 @@
+This is __library-name__TestResource
