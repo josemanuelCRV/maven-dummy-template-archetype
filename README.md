@@ -13,10 +13,9 @@ git clone https://github.com/josemanuelCRV/maven-dummy-template-archetype.git
 ```
 
 3.- Use the intalled archetype and generate a sample proyect.
-
-
 ``mvn archetype:generate -DarchetypeArtifactId=maven-dummy-template-archetype -DarchetypeGroupId=com.jmc.labs.archetype -DarchetypeVersion=1.0-SNAPSHOT``
-Insert values for your proyect
+
+Specify the full information about the new project you want to create (its groupId, its artifactId, its version)
 ```sh
 [INFO] Generating project in Interactive mode
 Downloading: http://repo.maven.apache.org/maven2/com/jmc/labs/archetype/maven-dummy-template-archetype/1.0-SNAPSHOT/maven-metadata.xml
